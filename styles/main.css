@@ -1,0 +1,57 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background: #e0e0e0;
+     font-family: sans-serif;
+}
+
+.testimonial-section {
+     display: grid;
+     height: 100vh;
+     place-items: center;
+}
+
+.owl-stage {
+     display: flex;
+     align-items: center;
+}
+
+/* TESTIMONIAL SECTION */     
+.testimonial {
+     width: 70%;
+     padding: 5%;
+     display: flex;
+     color: #777777;
+     border-radius: 5px;
+     /* WHY IS THE SHADOW CUT OFF HERE? */
+     box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.testimonial img {
+     margin-right: 15px;
+     border-radius: 5px;
+}
+
+.testimonial h2 {
+     font-size: 45px;
+     margin-bottom: 15px;
+}
+
+.testimonial h3 {
+     font-size: 25px;
+     margin-bottom: 10px;
+}
+
+.testimonial p {
+     font-size: 20px;
+     color: #777777b3;
+}
+
+.testimonial p span {
+     font-size: 30px;
+     font-weight: bold;
+}
