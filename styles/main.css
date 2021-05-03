@@ -5,29 +5,21 @@
 }
 
 body {
+     overflow-x: hidden;
      background: #e0e0e0;
      font-family: sans-serif;
 }
 
-.testimonial-section {
-     display: grid;
-     height: 100vh;
-     place-items: center;
-}
-
-.owl-stage {
-     display: flex;
-     align-items: center;
-}
 
 /* TESTIMONIAL SECTION */     
 .testimonial {
      width: 70%;
      padding: 5%;
      display: flex;
+     margin: 10% auto;
      color: #777777;
      border-radius: 5px;
-     /* WHY IS THE SHADOW CUT OFF HERE? */
+     align-items: center;
      box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
@@ -54,4 +46,23 @@ body {
 .testimonial p span {
      font-size: 30px;
      font-weight: bold;
+}
+
+
+
+
+/* MOBILE RESPONSIVENESS  MAX-WIDTH: 1200PX*/
+@media screen and (max-width: 1200px) {
+     /* TESTIMONIAL SECTION */
+     .testimonial {
+          width: 90%;
+     }
+}
+
+/* MOBILE RESPONSIVENESS  MAX-WIDTH: 900PX*/
+@media screen and (max-width: 900px) {
+     /* TESTIMONIAL SECTION */
+     .testimonial {
+          flex-direction: column;
+     }
 }
